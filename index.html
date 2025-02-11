@@ -1,99 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikita Gill & Her Poetry</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            margin: 0;
+          .bold{
+        font-weight: bold;
         }
-		div{
-			width: 800px;
-			height: 800px;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: auto;
-			margin-bottom: auto;
-			background-color: white;
-			color: black;
-			text-align: center;
-			box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
-			border-radius:4px;
-			padding: 5px;
-		}
-        section {
-            background-color: lightgrey;
-            width: 60%;
-            border-bottom: solid black;
-            padding: 30px;
-            margin: 20px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
+
+        h2{
+        text-align: center;
+        text-decoration: underline overline solid black;
         }
-        h1, h2 {
-            text-align: center;
+
+        p{
+        text-align: justify;
+        width:50vw;
+        margin-left: auto;
+        margin-right: auto;
         }
-        h2 {
-            border-top: 2px solid black;
-            border-bottom: 2px solid black;
-            padding: 10px 0;
+
+        section{
+        border-bottom: 5px solid black;
+        height: 40vh;
+        overflow-y:scroll
         }
-        p {
-            text-align: justify;
-            font-size: 18px;
-            line-height: 1.6;
+
+        #section1::before{
+        background-image: url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+        background-size: stretch;
+        background-position: center;
+        content: "";
+        position: absolute;
+        width:100%;
+        height: 40vh;
+        z-index: -2;
+        opacity: 0.3;
         }
-        .bio-section {
-            background-color: rgb(151, 27, 27);
-            width: 70%;
-            padding: 50px;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 9 1000px 80px rgba(20, 20, 20, 0.2);
-			
+
+        #section2{
+        padding: 2em;
+        color: white;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,211,253,1) 50%, rgba(252,176,69,1) 100%);
         }
+
+        p:hover{
+        outline: 2px double red;
+        }
+
+        
+
+            div{
+                width: 400px;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                background-color: white;
+                color: black;
+                text-align: center;
+                box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+                border-radius:4px;
+                padding: 5px;
+             }
+
+                div> h2{
+                text-decoration: none;
+                }
+
     </style>
-</head>
-<body>
-    <section>
-        <h1>Sample Poem</h1>
-        <h2>If Our Demons Cannot Dance</h2>
-        <p>
-            I will not have you without the darkness that hides within you.<br>
-            I will not let you have me without the madness that makes me.<br>
-            If our demons cannot dance, neither can we.
-        </p>
+  </head>
+  <body>
+    <section id="section1">
+        <h1>Mahmoud Darwish - Poem</h1>
+        <h2>Rita and the Rifle</h2>
+        <p>Between Rita and my eyes, there is a rifle.</p>
+
+        <p>And whoever knows Rita, kneels and prays<br>
+        To the divinity in those honey-colored eyes.<br>
+        And I kissed Rita when she was young.<br>
+        And I remember how she approached<br>
+        And how my arm covered the loveliest of braids.</p>
+
+        <p>And I remember Rita,<br>
+        The way a sparrow remembers its stream.<br>
+        Ah, Rita!<br>
+        Between us are a million sparrows and images<br>
+        And many appointments<br>
+        Fired at by a rifle.</p>
+
+        <p>Rita's name was a feast in my mouth,<br>
+        Rita's body was a wedding in my blood.<br>
+        And I was lost in Rita for two years,<br>
+        And for two years she slept on my arm<br>
+        And we made promises<br>
+        Over the most beautiful of cups.<br>
+        And we burned in the wine of our lips<br>
+        And we were born again.</p>
+
+        <p>Ah, Rita!<br>
+        Did anything avert my eyes from your eyes<br>
+        Except for two short naps<br>
+        And honey-colored clouds?<br>
+        Before this rifle,<br>
+        "It was, it was not."</p>
+
+        <p>O quiet of the evening,<br>
+        My moon has emigrated far in the morning<br>
+        To the honey-colored eyes.<br>
+        The city has swept away all the singers,<br>
+        And Rita.</p>
+
+        <p>Between Rita and my eyes, there is a rifle.</p>
+      
     </section>
-    
-    <div class="bio-section">
-        <h1>About Nikita Gill</h1>
-        <p>
-            Nikita Gill is a British-Indian poet, writer, and illustrator known for her modern and deeply emotional poetry. 
-            Born in India, she later moved to the UK, where she gained recognition for her feminist themes, reflections on love, mental health, and mythology.
-        </p>
-        <h2>Famous Quotes</h2>
-        <p>
-            "Some people are born with tornadoes in their souls."<br>
-            "You are not small. You are not unworthy. You are not insignificant."<br>
-            "If our demons cannot dance, neither can we."<br>
-            "You must understand: they fear you. There is nothing scarier than a woman with an army of wolves at her back."
-        </p>
-        <h2>Most Well-Known Poems</h2>
-        <p>
-            - "If Our Demons Cannot Dance"<br>
-            - "The Girl Who Was Never Saved"<br>
-            - "For Her, The Wolves"<br>
-            - "A Woman’s Greatest Superpower"<br>
-            - "Your Softness Does Not Make You Weak"
-        </p>
-    </div>
-</body>
-</html>
+    <section id="section2">
+         <h1>Section 2</h1>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html> 
+
