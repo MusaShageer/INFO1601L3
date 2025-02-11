@@ -1,127 +1,161 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.google.com/search?sxsrf=AHTn8zrGSg5jy--a42Ro_FNqJWvQ5TK3gQ:1739286043222&q=ben+barnes+png&udm=2#vhid=qJmup9nM2ukEGM&vssid=mosaic">
+
     <style>
-          .bold{
-        font-weight: bold;
+        body{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: #fafafa;
+        }
+        #stories
+        {
+            height: 90px;
+            width: 70vw;
+            margin-top: -5px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #b5b5b5;
+            border-radius: 5px;
+            padding-left: 30px;
+            
+        }
+        .user
+        {
+            width: 18%;
+            display: inline-block;
+        }
+        .user p
+        {
+            text-align: center;
+            margin: 0;
+            font-family: 'Lucida Sans Unicode';
+            font-weight: 100;
+            font-size: smaller;
         }
 
-        h2{
-        text-align: center;
-        text-decoration: underline overline solid black;
+        .post-header
+        {
+            background-color: white;
+            height: 50px;
+            box-sizing: border-box;
+            width: inherit;
+            padding: 5px;
+            border-bottom: 1px solid #b5b5b5
+        }
+        
+        nav
+        {
+            display: flex;
+            color: white;
+            width: 100vw;
+            height: 54px;
+            border: 1px solid color #e5e5e5;
+            justify-content: space-evenly;
+            
         }
 
-        p{
-        text-align: justify;
-        width:50vw;
-        margin-left: auto;
-        margin-right: auto;
+        #logo
+        {
+            height: 40px;
+            position: relative;
+            top: 5px;
+            left: 10px;
+            
         }
-
-        section{
-        border-bottom: 5px solid black;
-        height: 40vh;
-        overflow-y:scroll
+        
+        nav input
+        {
+            height: 25px;
+            /* position: absolute; */
+            width: 30vw;
+            left: 35vw;
+            right: 35vw;
+            color:#fafafa;
+            text-align: center;
+            border: solid #b5b5b5 1px;
+            border-radius: 3px;
+            margin-bottom: 40px;
         }
-
-        #section1::before{
-        background-image: url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
-        background-size: stretch;
-        background-position: center;
-        content: "";
-        position: absolute;
-        width:100%;
-        height: 40vh;
-        z-index: -2;
-        opacity: 0.3;
+        #actions
+        {
+            height: 40px;
+            position: relative;
+            
         }
-
-        #section2{
-        padding: 2em;
-        color: white;
-        background: rgb(131,58,180);
-        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,211,253,1) 50%, rgba(252,176,69,1) 100%);
-        }
-
-        p:hover{
-        outline: 2px double red;
+        body > section.post > div.post-header > img
+        {
+            border-radius: 50%;
+            height: 40px;
+            border: 2px double gainsboro;
         }
 
         
+        .post
+        {
+            border: 1px solid #b5b5b5;
+            border-radius: 2px;
+            height: 60vh; 
+            width: 560px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        
 
-            div{
-                width: 400px;
-                height: 300px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: auto;
-                margin-bottom: auto;
-                background-color: white;
-                color: black;
-                text-align: center;
-                box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
-                border-radius:4px;
-                padding: 5px;
-             }
-
-                div> h2{
-                text-decoration: none;
-                }
-
-    </style>
-  </head>
-  <body>
-    <section id="section1">
-        <h1>Mahmoud Darwish - Poem</h1>
-        <h2>Rita and the Rifle</h2>
-        <p>Between Rita and my eyes, there is a rifle.</p>
-
-        <p>And whoever knows Rita, kneels and prays<br>
-        To the divinity in those honey-colored eyes.<br>
-        And I kissed Rita when she was young.<br>
-        And I remember how she approached<br>
-        And how my arm covered the loveliest of braids.</p>
-
-        <p>And I remember Rita,<br>
-        The way a sparrow remembers its stream.<br>
-        Ah, Rita!<br>
-        Between us are a million sparrows and images<br>
-        And many appointments<br>
-        Fired at by a rifle.</p>
-
-        <p>Rita's name was a feast in my mouth,<br>
-        Rita's body was a wedding in my blood.<br>
-        And I was lost in Rita for two years,<br>
-        And for two years she slept on my arm<br>
-        And we made promises<br>
-        Over the most beautiful of cups.<br>
-        And we burned in the wine of our lips<br>
-        And we were born again.</p>
-
-        <p>Ah, Rita!<br>
-        Did anything avert my eyes from your eyes<br>
-        Except for two short naps<br>
-        And honey-colored clouds?<br>
-        Before this rifle,<br>
-        "It was, it was not."</p>
-
-        <p>O quiet of the evening,<br>
-        My moon has emigrated far in the morning<br>
-        To the honey-colored eyes.<br>
-        The city has swept away all the singers,<br>
-        And Rita.</p>
-
-        <p>Between Rita and my eyes, there is a rifle.</p>
       
+    </style>
+</head>
+<body>
+    <nav>
+       
+        <img id="logo" src="img/instagran.png" alt="instagran logo" >
+    
+        <input type="text" placeholder="search"/>
+
+        <img id="actions" src="img/actions.png" alt="actions" >
+    </nav>
+
+    <section id="stories">
+        <div class="user" id="mydiv">
+            <img src="img/gran1.jpg" >
+            <p class="userstory">Elma</p>
+        </div>
+        <div class="user">
+            <img src="img/gran2.jpg" >
+            <p class="userstory">Betty</p>
+        </div>
+        <div class="user">
+            <img src="img/gran3.jpg" >
+            <p class="userstory">Sandra</p>
+        </div>
+        <div class="user">
+            <img src="img/gran4.jpg" >
+            <p class="userstory">Delores</p>
+        </div>
+
+        <div class="user">
+            <img src="img/gran5.jpg" >
+            <p class="userstory">Karen</p>
+        </div>
     </section>
-    <section id="section2">
-         <h1>Section 2</h1>
+
+    <section class="post">
+        <div class="post-header">
+            <img src="img/gran1.jpg"><span>Elma</span>
+        </div>
+        <div>
+            <img class="post-image" src="https://placeholder.pics/svg/300x200" alt="post image">
+        </div>
     </section>
-    <script src="script.js"></script>
-  </body>
-</html> 
+
+    <footer></footer>
+</body>
+</html>
 
